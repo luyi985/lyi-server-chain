@@ -1,2 +1,4 @@
 import './config';
-export const test = () => 'test';
+import { Peer } from './core';
+
+new Peer();
